@@ -1,0 +1,20 @@
+{
+  "name": "todos",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://nafisgh.github.io/todos",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps --dist-dir prod"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "process": "^0.11.10",
+    "sharp": "^0.33.3"
+  },
+  "dependencies": {
+    "firebase": "^10.10.0",
+    "gh-pages": "^6.1.1",
+    "uuid": "^9.0.1"
+  }
+}
